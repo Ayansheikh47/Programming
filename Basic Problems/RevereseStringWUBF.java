@@ -1,5 +1,6 @@
 public class RevereseStringWUBF {
     public static void main(String[] args) {
+
         String name="Nitin";
         String reverse="";
 
@@ -7,6 +8,5 @@ public class RevereseStringWUBF {
             reverse += name.charAt(i);
         }
         System.out.println(reverse);
-
     }
 }
